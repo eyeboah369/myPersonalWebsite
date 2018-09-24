@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/websiteCSS.css">
+<script src="js/websiteJS.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+
+<body>
+
+
+	<div class="bigWrapper">
+	<div class="header">			<!--Header for the top of the website-->
+		<ul class="headerNav">
+			<li>Aboubt Me</li>		<!--Nav for the header of website(go back and highlight the boxes when clicked)-->
+			<li>Resume</li>
+			<li>Projects</li>
+			<li>Contact Me</li> 
+		</ul>
+	</div>
+
+
+	<div class = "wrapper">			<!--wrapper for the boxes that will display the info on front of page-->
+	<div class="box">				<!--main box for the intro-->
+
+		<div class="introBox w3-animate-right">		<!--box with the actual intro information-->
+
+
+
+			<h1 style="text-align: center;"><strong>Welcome</strong></h1>
+
+			<h3 style="text-align: center; color: white;">I am Evans Yeboah Jr. rising sophomore in college and aspiring cyber security innovator</h3>
+
+
+			<h3 style="text-align: left; float: right">I am Evans Yeboah Jr. rising sophomore in college and </br>aspiring cyber security innovator.</h3>
+
+			<img class="headshot" src="https://uc39e26fff19b01dea55e5099c29.previews.dropboxusercontent.com/p/thumb/AAMC_TtcVYyUHkJzN5VovZ8mfYUaeaQohJ7-4Cj4GAKLBBiIeftC_w3JQ3wuAvIJ2QlOGn9ftzZhNjlUgza4dM5I-8JXnr0PX5UoZsYQ7uvwPZpZ5PyFddiDyvxWjGzx62UoZGY3LZvCe-6WrFnj_azOP5dFzVq4K25htEbHx2Evu6b4rnLt-8jSd-AlaG2KMNxBpMw0WdN6Q6eyccQ00NJPOpiOsbUGYr5MX9HiccnhpA/p.jpeg?size=1600x1200&size_mode=3" />
+
+			<div class="buttonWrapper">
+				<button class="introButton">
+
+					<p><strong>Projects</strong></p>
+
+				</button>
+
+				<button style="background-color: #4A67EC" class="introButton">
+
+					<p><strong>Proficiencies</strong></p>
+
+				</button>
+
+				<button style="background-color: #D9EF5C" class="introButton">
+
+					<p><strong>Experience</strong></p>
+
+				</button>
+			</div>
+		</div>
+
+		<div class="introBox w3-animate-right">		<!--box with the actual intro information-->
+			<h1>Welcome</h1>
+
+			<h3 style="text-align: center;">I am Evans Yeboah Jr. rising sophomore in college and aspiring cyber security innovator.</h3>
+		</div>
+
+		<div class="introBox w3-animate-right">		<!--box with the actual intro information-->
+			<h1>Hello World</h1>
+
+			<h3>I am Evans Yeboah Jr., rising sophomore in college and aspiring cyber security innovator.</h3>
+		</div>
+	</div>
+
+		
+
+		<h3 style="text-align: center; margin-left: 54%; margin-top: -15%"><strong>Scroll down for more</strong></h3>
+		<i class="fa fa-chevron-down" style="font-size:36px; margin-left: 75%; margin-top: -2%"></i>
+
+
+	<div class="Projects">	
+
+		<h1 style="margin-left: 10%">Projects and Related Works</h1>
+
+		<h5 style="margin-left: 10%; margin-bottom: 5%;">List of projects and work I have undertaken in borh software development and </br> in the field of cyber security.</h5>
+
+		<div class="overlayContainer">
+			<img class="communitySyncLogo" src="img/com_Sync.png" />
+
+			<div class="overlayOverlay">
+				<div class="overlayText">
+					<h2>Community Sync</h2>
+
+
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("introBox");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 6000);    
+}
+</script>
+
+
+
+
+</body>
+</html>
