@@ -27,7 +27,7 @@ ul {
 	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/colorful-circuit-board-technology-animated-background-video-graphic-design-ultra-hd-4k-3840x2160_hwlancsf__F0000.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
-	min-height: 750px;
+	min-height: 550px;
 	margin-bottom: 2%;
 	margin-top: -2%;
 
@@ -90,7 +90,7 @@ ul {
 
 .communitySyncLogo {
 	margin-right: 60%;
-	margin-bottom: 10%;
+	margin-bottom: 2%;
 	height: 30%;
 	width: 30%;
 }
@@ -101,27 +101,33 @@ ul {
 	margin-top: -45%;
 	margin-right: 10%;
 	*/
-	margin-bottom: 10%;
+	display: inline;
+
 	margin-right: 15%;
-	margin-top: -36%;
-	float: right;
-	height: 35%;
-	width: 35%;
+	margin-top: -42%;
+	margin-left: 50%;
+
+	height: 31%;
+	width: 31%;
 
 }
 
 
-.dummyPic {
+/*.dummyPic {
 	float: left;
-	height: 40%;
-	width: 40%;
-}
+	height: 30%;
+	width: 30%;
+	margin-top: 20%;
+	margin-left: 10%;
+}*/
 
 .dummyPic1 {
+	margin: 5% 40% 10% 10%;
 	float: right;
 	height: 30%;
 	width: 30%;
-	margin-right: 15%;
+	
+	display: inline;
 }
 
 
