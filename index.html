@@ -33,16 +33,14 @@
   <!-- Links -->
   <ul class="navbar-nav" style="margin: auto">
     <li class="nav-item">
-      <a class="nav-link" href="#">About Me</a>
+      <a class="nav-link" href="#aboutme">About Me</a>
     </li>
     <li class="nav-item">
-       <a class="nav-link" href="\C:\Users\Evans Yeboah Jr\Desktop\myPersonalWebsite\img\Yeboah Evans Resume.pdf" target="_blank">Resume</a>
+       <a class="nav-link" href="img/Yeboah Evans Resume.pdf" target="_blank">Resume</a>
     </li>
+    
     <li class="nav-item">
-      <a class="nav-link" href="#">Projects</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Contact Me</a>
+      <a class="nav-link" href="#contact">Contact Me</a>
     </li>
   </ul>
 </nav>
@@ -52,18 +50,19 @@
 		<div style="display: inline;" class="container">
   			<div style="box-shadow: 0px 3px 15px 5px #A1A8AD; margin-left: 10%; margin-right: 13%; margin-top: 5%; background-color: #FDFBFD; padding-bottom: 10%" class="panel panel-default">
 	    		
-	    		<div  style="margin-top:-30%; display: inline; " class="panel-body"><h1><strong>Welcome</strong></h1>
+	    		<div  style="margin-top:-30%; display: inline; " class="panel-body">
+	    			<a name="aboutme"><h1><strong>Welcome</strong></h1></a>
 
-		    		<img style="height: 10%; margin-left: 2%; vertical-align: middle;" class="headshot" src="img/headshot - Copy.png" />
+		    		<img style="height: 10%; margin-left: 2%; vertical-align: middle;" class="headshot" src="img/headshot(new).gif" />
 
 		    		<h3 style="text-align: center; color: black;">I am Evans Yeboah Jr. rising sophomore in college and aspiring cyber security innovator
 		    		</h3>
 
 
 		    		<div class="buttonWrapper">
-						<button style="background-color: #28B463" class="introButton">
+						<button style="background-color: #28B463;" class="introButton">
 
-							<a href="#link1" style="text-decoration: none;"><strong>Projects</strong></a>
+							<a href="#link1" style="text-decoration: none; "><strong>Projects</strong></a>
 
 						</button>
 
@@ -191,7 +190,7 @@
         <!-- Modal body -->
         <div class="modal-body">
          <h2>GitHub</h2>
-         <p>Orion is a trivia based app used to test ones knowldge on some of the most random concepts.</p>
+         <p>My GitHub where all of my coded works are stored and readily available for viewing.</p>
 
          <a href="https://github.com/eyeboah369" target="_blank" style="text-decoration: none; color: blue">Click Here</a>
         </div>
@@ -209,26 +208,215 @@
  
 
 
-<div class="panel panel-default" style="height: 800px; width: 100%; background-color: /*#31287C*/#85C1E9; color: white; clear: right; margin-bottom: 10%; box-shadow: 0 7px 5px -1px #A1A8AD; background: linear-gradient(to bottom, rgba(254,255,255,1) 0%,rgba(221,241,249,1) 35%,rgba(160,216,239,1) 100%); margin-top: -20%">
+<div class="panel panel-default" style="min-height: 200px; width: 100%; padding-bottom: 5%; background-color: /*#31287C*/#85C1E9; color: white; clear: right; margin-bottom: 10%; box-shadow: 0 7px 5px -1px #A1A8AD; background: linear-gradient(to bottom, rgba(254,255,255,1) 0%,rgba(221,241,249,1) 35%,rgba(160,216,239,1) 100%); margin-top: -20%">
   
   <div class="panel-body">
   	<a name="link2"><p style="font-size: 50px; color: black; margin: auto">Proficiencies</p></a>
 
 
-  	<img class="javaLogo" class="bounce" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" />
+  	<img class="javaLogo"   class="btn" data-toggle="modal" data-target=".bd-modal-lg-java"src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" />
 
-  	<img class="headShake" style="height: 20%; width: 20%; margin-top: 5%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" />
+	<div class="modal fade bd-modal-lg-java" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content" style="min-height: 600px; margin-top: 7%;">
+	      
+	    	<div class="modal-body">
+	    		<h2 style="color: black;">Java</h2>
+
+	    		<div class="progress" style="height: 30px;">
+    			<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:60%; height: 40px;color: white;"><p style="font-size: 28px; float: right;">60%</p>
+    				
+    			</div>
+  				</div>
+
+  				<ul style="color: black; text-align: left; margin-top: 40%">
+  					<li>Data Structures</li>
+  					<li>Sorting algorithms</li>
+  					<li>Pitty-Pat Implementation<a style="color: blue;" href="https://github.com/eyeboah369/Pitty-Pat-Card-Game"> (click here)</a></li>
+  				</ul>
+			
+
+	    	</div>
+	      <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+
+	    </div>
+	  </div>
+	</div>
 
 
-  	<img class="headShake" style="height: 20%; width: 20%; margin-top: 5%; float:right; margin-right: 5%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png" />
+
+  	<img  class="btn " data-toggle="modal" data-target=".bd-modal-lg-html" style="height: 20%; width: 20%; margin-top: 5%; ;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" />
+
+
+  	<div class="modal fade bd-modal-lg-html" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content" style="min-height: 600px; margin-top: 7%;">
+	      
+	    	<div class="modal-body">
+	    		<h2 style="color: black;">HTML5</h2>
+
+	    		<div class="progress" style="height: 30px;">
+    			<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:90%; height: 40px;color: white;"><p style="font-size: 28px; float: right;">90%</p>
+    				
+    			</div>
+  				</div>
+
+
+  				<ul style="color: black; text-align: left; margin-top: 40%">
+  					<li>Extensive front end development experience</li>
+  					<li>Community Sync front end made with HTML5</li>
+  					<li>Knowledge of use in accordance with ES6 standards</li>
+  				</ul>
+			
+
+	    	</div>
+	      <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+
+	    </div>
+	  </div>
+	</div>
+
+
+  	<img  class="btn " data-toggle="modal" data-target=".bd-modal-lg-python" style="height: 20%; width: 20%; margin-top: 5%; float:right; margin-right: 5%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png" />
+
+
+  	<div class="modal fade bd-modal-lg-python" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content" style="min-height: 600px; margin-top: 7%;">
+	      
+	    	<div class="modal-body">
+	    		<h2 style="color: black;">Python</h2>
+
+	    		<div class="progress" style="height: 30px;">
+    			<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:45%; height: 40px;color: white;"><p style="font-size: 28px; float: right;">45%</p>
+    				
+    			</div>
+  				</div>
+
+
+  				<ul style="color: black; text-align: left; margin-top: 40%">
+  					<li>Data Structures</li>
+  					<li>Knowledge of cyber security Implementations</li>
+  					<li>Cipher test made sucessfull using Python</li>
+  				</ul>
+			
+			
+
+	    	</div>
+	      <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+
+	    </div>
+	  </div>
+	</div>
 
   
-  		<!--<img  style="height: 20%; width: 20%; margin-top: 5%; float: left; margin-left: 5%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png" />-->
-
-  		<!--<img  style="height: 10%; width: 10%; margin-top: 5%; float: right; margin-right: 5%;" src="https://seeklogo.com/images/V/visual-studio-logo-14F95CF819-seeklogo.com.png" />-->
+  		<img  class="btn " data-toggle="modal" data-target=".bd-modal-lg-react" style="height: 34%; width: 34%; margin-top: 5%; float: left;  clear: right; margin-left: -23%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png" />
 
 
-  		<!--<img  style="height: 10%; width: 10%; margin-top: 5%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/2000px-CSS3_logo_and_wordmark.svg.png" />-->
+  		<div class="modal fade bd-modal-lg-react" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content" style="min-height: 600px; margin-top: 7%;">
+	      
+	    	<div class="modal-body">
+	    		<h2 style="color: black;">React</h2>
+
+
+	    		<div class="progress" style="height: 30px;">
+    			<div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:40%; height: 40px;color: white;"><p style="font-size: 28px; float: right;">40%</p>
+    				
+    			</div>
+  				</div>
+
+
+  				<ul style="color: black; text-align: left; margin-top: 40%">
+  					<li>Knwledge on React and React Native</li>
+  					<li>Experience with Expo mobile development</li>
+  				</ul>
+			
+			
+
+	    	</div>
+	      <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+
+	    </div>
+	  </div>
+	</div>
+
+  		<img  class="btn " data-toggle="modal" data-target=".bd-modal-lg-vstudio"style="height: 20%; width: 20%; margin-top: 5%; float: right; margin-right: 5%;" src="https://seeklogo.com/images/V/visual-studio-logo-14F95CF819-seeklogo.com.png" />
+
+
+  		<div class="modal fade bd-modal-lg-vstudio" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content" style="min-height: 600px; margin-top: 7%;">
+	      
+	    	<div class="modal-body">
+	    		<h2 style="color: black;">Visual Studio</h2>
+
+	    		<div class="progress" style="height: 30px;">
+    			<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%; height: 40px;color: white;"><p style="font-size: 28px; float: right;">75%</p>
+    				
+    			</div>
+  				</div>
+
+
+  				<ul style="color: black; text-align: left; margin-top: 40%">
+  					<li>Extensive knowledge on Apach Cordova app development</li>
+  					<li>Understanding of how to utilize SQL for database manipulation/creation</li>
+  					<li>Community Sync coded, packaged and added to Google Play store all through VS</li>
+  				</ul>
+			
+
+	    	</div>
+	      <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+
+	    </div>
+	  </div>
+	</div>
+
+
+  		<img  class="btn " data-toggle="modal" data-target=".bd-modal-lg-bootstrap"style="height: 35%; width: 35%; margin-top: 3%; margin-right: 9%; " src="img/bootstrap.png" />
+
+
+  		<div class="modal fade bd-modal-lg-bootstrap" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content" style="min-height: 600px; margin-top: 7%;">
+	      
+	    	<div class="modal-body">
+	    		<h2 style="color: black;">Bootstrap</h2>
+
+
+	    		<div class="progress" style="height: 30px;">
+    			<div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:75%; height: 40px;color: white;"><p style="font-size: 28px; float: right;">75%</p>
+    				
+    			</div>
+  				</div>
+
+
+  				<ul style="color: black; text-align: left; margin-top: 40%">
+  					<li>This website is made possiblue utilizing Bootstrap</li>
+  					<li>Ample experience using for front end development</li>
+  					<li>Knowledge on most recent release; Bootstrap 4</li>
+  				</ul>
+			
+
+	    	</div>
+	      <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+
+	    </div>
+	  </div>
+	</div>
 
 
   </div>
@@ -238,7 +426,7 @@
 
 	<div class="container">
 			<div>
-				<a name="link3"><h1 style="float: left; margin-top: -10%;">Experience</h1></a>
+				<a name="link3"><h1 style="float: left; margin-top: -7%;">Experience</h1></a>
 				
 			</div>
 
@@ -248,7 +436,7 @@
 
 
 	<div class="container" style="display: inline-block; margin-bottom: 30%">
-		<p style="font-size: 40px; text-decoration: underline; float: left;"><strong>Technical Marketing Intern at Silicon Labs</strong></p>
+		<p style="font-size: 40px; text-decoration: underline; float: left; clear: right;"><strong>Technical Marketing Intern at Silicon Labs</strong></p>
 
 
 		<p style="font-size: 20px; float: left; text-align: left;">
@@ -281,15 +469,20 @@
 
 	
 
-<footer class="footer" style="background-color: black; height: 300px; color: white; bottom: 0;">
-      <div class="container">
-      <a href="https://www.linkedin.com/in/evansyeboah/" target="_blank"><img  style="hieght: 15%; width: 15%; float: left; margin-right: 5%; margin-top: 10%;"src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"></a> 
+<footer class="footer" style="background-color: black; min-height:280px; color: white; margin-top: 5%;">
+      <div class="container" style="display: inline-block;">
+      <a href="https://www.linkedin.com/in/evansyeboah/" target="_blank"><img  style="hieght: 15%; width: 15%; float: right; margin-right: 5%; margin-top: 5%;"src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"></a> 
 
      <!-- <a href="https://www.linkedin.com/in/evansyeboah/" target="_blank"><img  style="hieght: 35%; width: 35%; float: left; margin-right: 5%; margin-top: 10%;"src="img/github.png"></a> -->
 
-      <p style="font-size: 30px; float: left; margin-left: -20%">Contact Me</p>
+      <!--<p style="color: #AAB7B8; font-size: 30px; float: left; margin-left: -2%; ">Contact Me</p>-->
 
-      
+      <a name="contact"><p style="text-decoration: underline; color: #AAB7B8; font-size: 210%; float: left; margin-left: -2%;" >LinkedIn</p></a>
+
+      	<ul style="list-style-type: none; text-align: left; clear: right; font-size: medium; color: #AAB7B8; margin-top: -7%;">
+      		<li>Contact me thorugh my LinkedIn</li>
+      		<li>Learn more about me and my works</l21
+      </ul>
       </div>
     </footer>
 
