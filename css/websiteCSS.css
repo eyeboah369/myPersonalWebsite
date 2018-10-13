@@ -122,11 +122,10 @@ ul {
 }*/
 
 .dummyPic1 {
-	margin: 5% 40% 10% 10%;
+	margin: 5% 35% 10% 10%;
 	float: right;
-	height: 30%;
-	width: 30%;
-	
+	height: 40%;
+	width: 40%;
 	display: inline;
 }
 
@@ -135,6 +134,14 @@ ul {
 	margin-top: -45%;
 	display: inline;
 
+}
+
+.javaLogo {
+	height: 15%;
+	width: 15%;
+	float: left;
+	margin-left: 5%;
+}
 }
 
 }
