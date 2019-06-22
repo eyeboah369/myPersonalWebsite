@@ -8,10 +8,6 @@ body {
 @media (min-width: 100px) and (max-width: 2636px) {
 
 
-.headerBox {
-		
-}
-
 .testNav {
 	width: inherit;
 	float: right;
@@ -53,12 +49,6 @@ ul {
 	width: 200px;
 	color: white;
 	height: 55px;
-}
-
-.container {
-	
-
- 
 }
 
 .overlay {
